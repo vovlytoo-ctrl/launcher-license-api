@@ -1,13 +1,6 @@
 {
   "keys": [
     {
-      "key": "ROB-PB-FDVQ-92D7",
-      "days": 7,
-      "hwid": null,
-      "expires_at": null,
-      "revoked": false
-    },
-    {
       "key": "ROB-UV-TI2P-7F48",
       "days": 30,
       "hwid": null,
