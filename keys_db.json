@@ -1,13 +1,6 @@
 {
   "keys": [
     {
-      "key": "ROB-L5-V5ED-8LV7",
-      "days": 30,
-      "hwid": null,
-      "expires_at": null,
-      "revoked": false
-    },
-    {
       "key": "ROB-KA-A5DH-3HBW",
       "days": 1,
       "hwid": null,
