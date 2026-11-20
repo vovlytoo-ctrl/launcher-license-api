@@ -5,7 +5,7 @@
       "days": 1,
       "hwid": "5CF60B90E0EA7A8F",
       "expires_at": "2026-11-21T13:26:26.445815",
-      "revoked": false,
+      "revoked": true,
       "activated_at": "2026-11-20T13:26:26.445815"
     }
   ]
