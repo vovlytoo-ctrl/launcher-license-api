@@ -3,9 +3,10 @@
     {
       "key": "ROB-LN-GKKR-FFYJ",
       "days": 1,
-      "hwid": null,
-      "expires_at": null,
-      "revoked": false
+      "hwid": "5CF60B90E0EA7A8F",
+      "expires_at": "2026-11-21T01:16:07.618317",
+      "revoked": false,
+      "activated_at": "2026-11-20T01:16:07.618317"
     }
   ]
 }
