@@ -1,13 +1,6 @@
 {
   "keys": [
     {
-      "key": "ROB-DU-4WB2-Y1DH",
-      "days": 1,
-      "hwid": null,
-      "expires_at": null,
-      "revoked": false
-    },
-    {
       "key": "ROB-7W-X0J8-VBPJ",
       "days": 7,
       "hwid": null,
