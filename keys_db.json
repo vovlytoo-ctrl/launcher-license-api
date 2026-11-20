@@ -3,9 +3,10 @@
     {
       "key": "ROB-1O-Q53G-VNW6",
       "days": 7,
-      "hwid": null,
-      "expires_at": null,
-      "revoked": false
+      "hwid": "5CF60B90E0EA7A8F",
+      "expires_at": "2026-11-27T13:03:24.543222",
+      "revoked": false,
+      "activated_at": "2026-11-20T13:03:24.543222"
     },
     {
       "key": "ROB-Z8-17CF-SFI9",
