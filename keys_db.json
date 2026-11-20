@@ -3,9 +3,10 @@
     {
       "key": "ROB-DM-KFGE-CQRX",
       "days": 30,
-      "hwid": null,
-      "expires_at": null,
-      "revoked": false
+      "hwid": "5CF60B90E0EA7A8F",
+      "expires_at": "2026-12-20T01:16:59.964774",
+      "revoked": false,
+      "activated_at": "2026-11-20T01:16:59.964774"
     }
   ]
 }
