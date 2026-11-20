@@ -7,6 +7,13 @@
       "expires_at": "2026-12-20T01:16:59.964774",
       "revoked": false,
       "activated_at": "2026-11-20T01:16:59.964774"
+    },
+    {
+      "key": "ROB-WI-4K0C-2F5K",
+      "days": 30,
+      "hwid": null,
+      "expires_at": null,
+      "revoked": false
     }
   ]
 }
