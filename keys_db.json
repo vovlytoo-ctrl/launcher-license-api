@@ -1,3 +1,11 @@
 {
-  "keys": []
+  "keys": [
+    {
+      "key": "ROB-LX-QLP1-F34G",
+      "days": 30,
+      "hwid": null,
+      "expires_at": null,
+      "revoked": false
+    }
+  ]
 }
