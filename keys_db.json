@@ -1,3 +1,11 @@
 {
-  "keys": []
+  "keys": [
+    {
+      "key": "ROB-0R-79OA-WDHE",
+      "days": 1,
+      "hwid": null,
+      "expires_at": null,
+      "revoked": false
+    }
+  ]
 }
