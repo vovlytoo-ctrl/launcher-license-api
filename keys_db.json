@@ -1,3 +1,11 @@
 {
-  "keys": []
+  "keys": [
+    {
+      "key": "ROB-DF-3JRY-UO6O",
+      "days": 7,
+      "hwid": null,
+      "expires_at": null,
+      "revoked": false
+    }
+  ]
 }
