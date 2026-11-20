@@ -1,3 +1,11 @@
 {
-  "keys": []
+  "keys": [
+    {
+      "key": "ROB-DM-KFGE-CQRX",
+      "days": 30,
+      "hwid": null,
+      "expires_at": null,
+      "revoked": false
+    }
+  ]
 }
