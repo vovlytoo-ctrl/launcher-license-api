@@ -1,3 +1,11 @@
 {
-  "keys": []
+  "keys": [
+    {
+      "key": "ROB-5Y-1LDA-FOUT",
+      "days": 1,
+      "hwid": null,
+      "expires_at": null,
+      "revoked": false
+    }
+  ]
 }
