@@ -13,6 +13,13 @@
       "hwid": null,
       "expires_at": null,
       "revoked": false
+    },
+    {
+      "key": "ROB-Z8-17CF-SFI9",
+      "days": 1,
+      "hwid": null,
+      "expires_at": null,
+      "revoked": false
     }
   ]
 }
