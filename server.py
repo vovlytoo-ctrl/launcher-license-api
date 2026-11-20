@@ -24,6 +24,10 @@ class CreateKeyRequest(BaseModel):
     days: int = 30
 
 
+class AdminKeyActionRequest(BaseModel):
+    key: str
+
+
 def _generate_key() -> str:
     alphabet = string.ascii_uppercase + string.digits
     part1 = "".join(secrets.choice(alphabet) for _ in range(2))
@@ -109,6 +113,12 @@ def save_db_state(db_obj: dict, sha: str | None, message: str) -> None:
         _save_keys_to_github(db_obj, sha, message)
 
 
+def _verify_admin_token(x_admin_token: str | None) -> None:
+    expected_token = os.getenv("ADMIN_TOKEN", "").strip()
+    if not expected_token or x_admin_token != expected_token:
+        raise HTTPException(status_code=401, detail="Invalid admin token")
+
+
 def verify_entry(item: dict, hwid: str):
     if item.get("revoked"):
         return False, "KEY REVOKED"
@@ -186,13 +196,11 @@ def admin_create_key(
     body: CreateKeyRequest,
     x_admin_token: str | None = Header(default=None),
 ):
-    expected_token = os.getenv("ADMIN_TOKEN", "").strip()
-    if not expected_token or x_admin_token != expected_token:
-        raise HTTPException(status_code=401, detail="Invalid admin token")
+    _verify_admin_token(x_admin_token)
 
     days = max(1, min(body.days, 3650))
     with DB_LOCK:
-        db_obj, sha = _load_keys_from_github()
+        db_obj, sha = load_db_state()
         existing_keys = {item.get("key") for item in db_obj["keys"]}
 
         new_key = _generate_key()
@@ -210,3 +218,64 @@ def admin_create_key(
         save_db_state(db_obj, sha, f"Add license key {new_key}")
 
     return {"ok": True, "key": new_key, "days": days}
+
+
+@app.get("/admin/keys")
+def admin_list_keys(x_admin_token: str | None = Header(default=None)):
+    _verify_admin_token(x_admin_token)
+    with DB_LOCK:
+        db, _ = load_db_state()
+        return {"ok": True, "keys": db.get("keys", [])}
+
+
+@app.post("/admin/reset-hwid")
+def admin_reset_hwid(
+    body: AdminKeyActionRequest,
+    x_admin_token: str | None = Header(default=None),
+):
+    _verify_admin_token(x_admin_token)
+    target = body.key.strip().upper()
+    with DB_LOCK:
+        db, sha = load_db_state()
+        for item in db.get("keys", []):
+            if str(item.get("key", "")).strip().upper() == target:
+                item["hwid"] = None
+                save_db_state(db, sha, f"Reset HWID for {target}")
+                return {"ok": True, "key": target, "hwid": None}
+    raise HTTPException(status_code=404, detail="Key not found")
+
+
+@app.post("/admin/toggle-revoke")
+def admin_toggle_revoke(
+    body: AdminKeyActionRequest,
+    x_admin_token: str | None = Header(default=None),
+):
+    _verify_admin_token(x_admin_token)
+    target = body.key.strip().upper()
+    with DB_LOCK:
+        db, sha = load_db_state()
+        for item in db.get("keys", []):
+            if str(item.get("key", "")).strip().upper() == target:
+                new_state = not bool(item.get("revoked"))
+                item["revoked"] = new_state
+                save_db_state(db, sha, f"Toggle revoke ({new_state}) for {target}")
+                return {"ok": True, "key": target, "revoked": new_state}
+    raise HTTPException(status_code=404, detail="Key not found")
+
+
+@app.delete("/admin/delete-key")
+def admin_delete_key(
+    body: AdminKeyActionRequest,
+    x_admin_token: str | None = Header(default=None),
+):
+    _verify_admin_token(x_admin_token)
+    target = body.key.strip().upper()
+    with DB_LOCK:
+        db, sha = load_db_state()
+        keys = db.get("keys", [])
+        filtered = [k for k in keys if str(k.get("key", "")).strip().upper() != target]
+        if len(filtered) == len(keys):
+            raise HTTPException(status_code=404, detail="Key not found")
+        db["keys"] = filtered
+        save_db_state(db, sha, f"Delete key {target}")
+        return {"ok": True, "key": target, "deleted": True}
