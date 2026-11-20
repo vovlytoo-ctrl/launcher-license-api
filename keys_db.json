@@ -1,11 +1,3 @@
 {
-  "keys": [
-    {
-      "key": "ROB-U8-48GH-1FYD",
-      "days": 7,
-      "hwid": null,
-      "expires_at": null,
-      "revoked": false
-    }
-  ]
+  "keys": []
 }
