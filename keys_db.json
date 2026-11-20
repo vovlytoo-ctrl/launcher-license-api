@@ -69,6 +69,13 @@
       "hwid": null,
       "expires_at": null,
       "revoked": false
+    },
+    {
+      "key": "ROB-9A-Q25A-6JKO",
+      "days": 7,
+      "hwid": null,
+      "expires_at": null,
+      "revoked": false
     }
   ]
 }
