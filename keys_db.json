@@ -6,13 +6,6 @@
       "hwid": null,
       "expires_at": null,
       "revoked": false
-    },
-    {
-      "key": "ROB-16-ZYIN-JTG9",
-      "days": 1,
-      "hwid": null,
-      "expires_at": null,
-      "revoked": false
     }
   ]
 }
