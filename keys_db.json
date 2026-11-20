@@ -1,1 +1,11 @@
-{"keys": []}
+{
+  "keys": [
+    {
+      "key": "ROB-UM-WHSX-FXNV",
+      "days": 30,
+      "hwid": null,
+      "expires_at": null,
+      "revoked": false
+    }
+  ]
+}
