@@ -1,3 +1,11 @@
 {
-  "keys": []
+  "keys": [
+    {
+      "key": "ROB-K7-ITTU-ONEI",
+      "days": 1,
+      "hwid": null,
+      "expires_at": null,
+      "revoked": false
+    }
+  ]
 }
