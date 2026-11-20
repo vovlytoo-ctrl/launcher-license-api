@@ -1,18 +1,1 @@
-{
-  "keys": [
-    {
-      "key": "ROB-UM-WHSX-FXNV",
-      "days": 30,
-      "hwid": null,
-      "expires_at": null,
-      "revoked": false
-    },
-    {
-      "key": "ROB-VF-WGIN-L4LO",
-      "days": 7,
-      "hwid": null,
-      "expires_at": null,
-      "revoked": false
-    }
-  ]
-}
+
