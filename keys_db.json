@@ -1,14 +1,6 @@
 {
   "keys": [
     {
-      "key": "ROB-N6-C0I5-NWD8",
-      "days": 1,
-      "hwid": "5CF60B90E0EA7A8F",
-      "expires_at": "2026-11-21T21:09:18.103859",
-      "revoked": false,
-      "activated_at": "2026-11-20T21:09:18.103859"
-    },
-    {
       "key": "ROB-DU-4WB2-Y1DH",
       "days": 1,
       "hwid": null,
