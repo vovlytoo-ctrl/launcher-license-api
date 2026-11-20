@@ -18,9 +18,10 @@
     {
       "key": "ROB-7W-X0J8-VBPJ",
       "days": 7,
-      "hwid": null,
-      "expires_at": null,
-      "revoked": false
+      "hwid": "5CF60B90E0EA7A8F",
+      "expires_at": "2026-11-27T21:34:15.189642",
+      "revoked": false,
+      "activated_at": "2026-11-20T21:34:15.189642"
     }
   ]
 }
