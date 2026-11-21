@@ -30,6 +30,13 @@
       "expires_at": "2026-11-22T22:03:34.641407",
       "revoked": false,
       "activated_at": "2026-11-21T22:03:34.641407"
+    },
+    {
+      "key": "ROB-44-UVC1-KJG6",
+      "days": 1,
+      "hwid": null,
+      "expires_at": null,
+      "revoked": false
     }
   ]
 }
