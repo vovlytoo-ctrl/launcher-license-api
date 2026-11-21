@@ -7,6 +7,13 @@
       "expires_at": "2026-11-22T00:09:30.162110",
       "revoked": false,
       "activated_at": "2026-11-21T00:09:30.162110"
+    },
+    {
+      "key": "ROB-SY-BHFV-7X6T",
+      "days": 1,
+      "hwid": null,
+      "expires_at": null,
+      "revoked": false
     }
   ]
 }
