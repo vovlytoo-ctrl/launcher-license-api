@@ -33,13 +33,6 @@
       "activated_at": "2026-11-21T16:50:25.225488"
     },
     {
-      "key": "ROB-X4-NLZN-VU4I",
-      "days": 7,
-      "hwid": null,
-      "expires_at": null,
-      "revoked": false
-    },
-    {
       "key": "ROB-4B-19EN-BVH8",
       "days": 720,
       "hwid": null,
