@@ -23,6 +23,13 @@
       "expires_at": "2026-11-28T00:25:07.879300",
       "revoked": false,
       "activated_at": "2026-11-21T00:25:07.879300"
+    },
+    {
+      "key": "ROB-8S-71MT-1BR4",
+      "days": 7,
+      "hwid": null,
+      "expires_at": null,
+      "revoked": false
     }
   ]
 }
