@@ -16,13 +16,6 @@
       "activated_at": "2026-11-21T13:14:17.057339"
     },
     {
-      "key": "ROB-DT-OBN1-EVOJ",
-      "days": 1,
-      "hwid": null,
-      "expires_at": null,
-      "revoked": false
-    },
-    {
       "key": "ROB-IO-HC0B-TYUK",
       "days": 1,
       "hwid": null,
