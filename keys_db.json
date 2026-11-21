@@ -26,9 +26,10 @@
     {
       "key": "ROB-BV-06HC-KMB1",
       "days": 1,
-      "hwid": null,
-      "expires_at": null,
-      "revoked": false
+      "hwid": "5CF60B90E0EA7A8F",
+      "expires_at": "2026-11-22T16:50:25.225488",
+      "revoked": false,
+      "activated_at": "2026-11-21T16:50:25.225488"
     }
   ]
 }
