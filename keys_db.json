@@ -18,9 +18,10 @@
     {
       "key": "ROB-IO-HC0B-TYUK",
       "days": 1,
-      "hwid": null,
-      "expires_at": null,
-      "revoked": false
+      "hwid": "AC872E47A0C4500F",
+      "expires_at": "2026-11-22T14:18:45.458637",
+      "revoked": false,
+      "activated_at": "2026-11-21T14:18:45.458637"
     }
   ]
 }
