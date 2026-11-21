@@ -11,9 +11,10 @@
     {
       "key": "ROB-SY-BHFV-7X6T",
       "days": 1,
-      "hwid": null,
-      "expires_at": null,
-      "revoked": false
+      "hwid": "0CDCA76E574AB968",
+      "expires_at": "2026-11-22T00:11:09.599781",
+      "revoked": false,
+      "activated_at": "2026-11-21T00:11:09.599781"
     }
   ]
 }
