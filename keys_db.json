@@ -17,14 +17,6 @@
       "activated_at": "2026-11-21T14:18:45.458637"
     },
     {
-      "key": "ROB-BV-06HC-KMB1",
-      "days": 1,
-      "hwid": "5CF60B90E0EA7A8F",
-      "expires_at": "2026-11-22T16:50:25.225488",
-      "revoked": false,
-      "activated_at": "2026-11-21T16:50:25.225488"
-    },
-    {
       "key": "ROB-4B-19EN-BVH8",
       "days": 720,
       "hwid": null,
