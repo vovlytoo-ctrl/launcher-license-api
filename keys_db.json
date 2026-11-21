@@ -26,9 +26,10 @@
     {
       "key": "ROB-P9-RVFP-2BRW",
       "days": 1,
-      "hwid": null,
-      "expires_at": null,
-      "revoked": false
+      "hwid": "5CF60B90E0EA7A8FDF7964300DCCD118",
+      "expires_at": "2026-11-22T22:03:34.641407",
+      "revoked": false,
+      "activated_at": "2026-11-21T22:03:34.641407"
     }
   ]
 }
