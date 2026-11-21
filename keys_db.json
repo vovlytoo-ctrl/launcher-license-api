@@ -40,13 +40,6 @@
       "revoked": false
     },
     {
-      "key": "ROB-PS-A97F-KR0Q",
-      "days": 7,
-      "hwid": null,
-      "expires_at": null,
-      "revoked": false
-    },
-    {
       "key": "ROB-4B-19EN-BVH8",
       "days": 720,
       "hwid": null,
