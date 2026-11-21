@@ -47,13 +47,6 @@
       "revoked": false
     },
     {
-      "key": "ROB-YV-U3OC-H048",
-      "days": 7,
-      "hwid": null,
-      "expires_at": null,
-      "revoked": false
-    },
-    {
       "key": "ROB-4B-19EN-BVH8",
       "days": 720,
       "hwid": null,
