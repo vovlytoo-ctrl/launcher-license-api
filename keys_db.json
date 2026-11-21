@@ -31,6 +31,13 @@
       "expires_at": "2026-11-28T00:27:31.009389",
       "revoked": false,
       "activated_at": "2026-11-21T00:27:31.009389"
+    },
+    {
+      "key": "ROB-4F-Q4EP-O3UF",
+      "days": 7,
+      "hwid": null,
+      "expires_at": null,
+      "revoked": false
     }
   ]
 }
