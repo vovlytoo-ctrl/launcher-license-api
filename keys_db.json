@@ -38,6 +38,13 @@
       "hwid": null,
       "expires_at": null,
       "revoked": false
+    },
+    {
+      "key": "ROB-PS-A97F-KR0Q",
+      "days": 7,
+      "hwid": null,
+      "expires_at": null,
+      "revoked": false
     }
   ]
 }
