@@ -27,9 +27,10 @@
     {
       "key": "ROB-8S-71MT-1BR4",
       "days": 7,
-      "hwid": null,
-      "expires_at": null,
-      "revoked": false
+      "hwid": "5CF60B90E0EA7A8F",
+      "expires_at": "2026-11-28T00:27:31.009389",
+      "revoked": false,
+      "activated_at": "2026-11-21T00:27:31.009389"
     }
   ]
 }
