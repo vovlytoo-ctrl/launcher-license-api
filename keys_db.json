@@ -19,9 +19,10 @@
     {
       "key": "ROB-PX-N5SU-N7IA",
       "days": 7,
-      "hwid": null,
-      "expires_at": null,
-      "revoked": false
+      "hwid": "0CDCA76E574AB968",
+      "expires_at": "2026-11-28T00:25:07.879300",
+      "revoked": false,
+      "activated_at": "2026-11-21T00:25:07.879300"
     }
   ]
 }
