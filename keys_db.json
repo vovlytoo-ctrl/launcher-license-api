@@ -27,9 +27,10 @@
     {
       "key": "ROB-U6-X8X3-R01I",
       "days": 720,
-      "hwid": null,
-      "expires_at": null,
-      "revoked": false
+      "hwid": "65D30767BC369211A5A16A4F97B290A1",
+      "expires_at": "2028-11-11T23:01:08.324563",
+      "revoked": false,
+      "activated_at": "2026-11-22T23:01:08.324563"
     },
     {
       "key": "ROB-8J-8UUZ-M440",
