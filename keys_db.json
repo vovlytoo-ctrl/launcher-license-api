@@ -17,14 +17,6 @@
       "activated_at": "2026-11-22T06:43:44.445945"
     },
     {
-      "key": "ROB-P9-RVFP-2BRW",
-      "days": 1,
-      "hwid": "5CF60B90E0EA7A8FDF7964300DCCD118",
-      "expires_at": "2026-11-22T22:03:34.641407",
-      "revoked": false,
-      "activated_at": "2026-11-21T22:03:34.641407"
-    },
-    {
       "key": "ROB-44-UVC1-KJG6",
       "days": 1,
       "hwid": "A7EDC3E3489058E79426E133CF005327",
