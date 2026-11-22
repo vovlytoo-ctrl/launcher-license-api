@@ -19,9 +19,10 @@
     {
       "key": "ROB-4B-19EN-BVH8",
       "days": 720,
-      "hwid": null,
-      "expires_at": null,
-      "revoked": false
+      "hwid": "61389BF451868709",
+      "expires_at": "2028-11-11T06:43:44.445945",
+      "revoked": false,
+      "activated_at": "2026-11-22T06:43:44.445945"
     },
     {
       "key": "ROB-P9-RVFP-2BRW",
