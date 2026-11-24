@@ -80,6 +80,13 @@
       "hwid": null,
       "expires_at": null,
       "revoked": false
+    },
+    {
+      "key": "ROB-AL-KVIZ-L9WY",
+      "days": 1,
+      "hwid": null,
+      "expires_at": null,
+      "revoked": false
     }
   ]
 }
