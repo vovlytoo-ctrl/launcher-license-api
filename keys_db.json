@@ -59,6 +59,13 @@
       "hwid": null,
       "expires_at": null,
       "revoked": false
+    },
+    {
+      "key": "ROB-FU-AGA8-FIGW",
+      "days": 7,
+      "hwid": null,
+      "expires_at": null,
+      "revoked": false
     }
   ]
 }
