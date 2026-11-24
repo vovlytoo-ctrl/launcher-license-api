@@ -40,13 +40,6 @@
       "revoked": false
     },
     {
-      "key": "ROB-1L-MIKG-BFDI",
-      "days": 720,
-      "hwid": null,
-      "expires_at": null,
-      "revoked": false
-    },
-    {
       "key": "ROB-HG-E8B5-IS7A",
       "days": 7,
       "hwid": null,
