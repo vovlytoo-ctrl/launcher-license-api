@@ -70,9 +70,10 @@
     {
       "key": "ROB-NA-YV0T-B51P",
       "days": 1,
-      "hwid": null,
-      "expires_at": null,
-      "revoked": false
+      "hwid": "37D5EC6D3A9AFE8E721953546288E573",
+      "expires_at": "2026-11-26T00:13:44.812485",
+      "revoked": false,
+      "activated_at": "2026-11-25T00:13:44.812485"
     },
     {
       "key": "ROB-9G-O8Q4-YPPY",
